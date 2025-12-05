@@ -1,0 +1,17 @@
+{
+  "name": "mcp-ssh-playwright-suite",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reusable Playwright test harness for MCP SSH server integrations and related projects.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "codegen": "playwright codegen ${BASE_URL:-http://localhost:3000}",
+    "show-report": "playwright show-report reports/html"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "dotenv": "^16.4.1",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,13 @@
+# Node dependencies
+node_modules/
+playwright/node_modules/
+
+# Playwright output
+playwright/reports/
+playwright/tmp/
+playwright/test-results/
+
+# Logs and caches
+npm-debug.log*
+*.log
+.DS_Store
